@@ -1,0 +1,62 @@
+Terraform
+----------
+
+Terraform is an opensource Infrastructure as a Code (IAC) softwere form Harsi Corp Companey.
+this softwere written in "GO" programeing language.
+ 
+Infrastructure
+-------------
+resource to run applications...
+
+IAC
+---
+provisining infrasturcture using scripts insted of manually configuring machines..
+
+provisinging
+-------------
+createing,deleting, updateing...
+
+* Terraform is a s/w enables you to create, change, and delete infrastructure safely and efficiently.
+* Terraform supports all cloud providers.
+* terraform provides a consistenct cli workflow to manage hundred of cloud services.
+* the infrastructure terraform can manage components such as compute instances, storage, networking...etc
+* In the terraform, createing the infrastructure we use HCL (harshi corp configuration language)
+
+
+Tools for IAC
+-------------
+Terraform
+aws cloud formation
+azure resource manager
+Open stack
+vmwere
+IBM cloud
+
+Install terraform  (Terraform.io)....
+
+* there are 2 types of Terraformconf files.
+   1) Terraform format which ends with .tf (Human redable)
+   2) terraform Json format which ends with .tf.json (machine readable)
+* If you are having combination of these two extension files that is compleatly fine.still it works..
+
+
+* Terraform has plugin for each provider and we need to download it before going with any cloud with terraform..
+* create any file with.tf/.tf.json extension and press the provider information..
+* we create .tf files which is written in HCL
+* Terraform init 
+
+
+terraform main commands..
+------------------------
+
+terraform init
+terraform fmt
+terraform validate
+terraform plan
+terraform apply
+terraform destroy
+
+
+------------------------------------------------------------------------------------------------------------
+
+
